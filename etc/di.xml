@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Bundle\Helper\Data">
+        <plugin disabled="false"
+                name="Signativa_ExtendedBundle_Plugin_Magento_Bundle_Helper_Data"
+                sortOrder="10"
+                type="Signativa\ExtendedBundle\Plugin\Bundle\Helper\Data"/>
+    </type>
+</config>
