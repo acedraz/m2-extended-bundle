@@ -6,4 +6,10 @@
                 sortOrder="10"
                 type="Signativa\ExtendedBundle\Plugin\Bundle\Helper\Data"/>
     </type>
+    <type name="Magento\Bundle\Model\LinkManagement">
+        <plugin disabled="false"
+                name="Signativa_ExtendedBundle_Plugin_Magento_Bundle_Model_LinkManagement"
+                sortOrder="20"
+                type="Signativa\ExtendedBundle\Plugin\Bundle\Model\LinkManagement"/>
+    </type>
 </config>
