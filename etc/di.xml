@@ -12,4 +12,10 @@
                 sortOrder="20"
                 type="Signativa\ExtendedBundle\Plugin\Bundle\Model\LinkManagement"/>
     </type>
+    <type name="Magento\Bundle\Block\DataProviders\OptionPriceRenderer">
+        <plugin disabled="false"
+                name="Signativa_ExtendedBundle_Plugin_Magento_Bundle_Block_DataProviders_OptionPriceRenderer"
+                sortOrder="30"
+                type="Signativa\ExtendedBundle\Plugin\Bundle\Block\DataProviders\OptionPriceRenderer"/>
+    </type>
 </config>
